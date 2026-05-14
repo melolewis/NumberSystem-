@@ -36,36 +36,93 @@
             </div>
 
         </nav>
-        <div class="container">
+        <div class="container-fluid" style="background-color: rgb(252, 246, 250);">
             <p class="fw-bold text-center fs-2"> Converter from Decimal to Binary </p>
             <p class="text-center fs-3 fw-light">Convert decimal numbers to binary instantly and easily!</p>
-<div class="container text-center">
-  <div class="row justify-content-md-center">
-    <div class="col col-lg-2">
-      <p>25</p>
-      <p>decimal</p>
+<div class="container text-center d-none  d-md-block">
+  <div class="row justify-content-md-center d-none d-md-block" >
+    <div class="col col-lg-2 border  border-primary rounded-2 d-none d-md-block" style="width: 90px; ">
+      <p class="text-primary">25</p>
+      <p class="text-primary ">decimal</p>
     </div>
     <div class="col-md-auto">
       <p>-></p>
     </div>
-    <div class="col col-lg-2">
-        <p>11001</p>
-        <p>binary</p>
+    <div class="col col-lg-2 border border-success rounded-2 d-none d-md-block"style="width: 90px;">
+        <p class="text-success">11001</p>
+        <p class="text-success">binary</p>
     </div>
 
         </div>
+        <br>
     </div>
     </div>
-    <div class="container my-5 border border-black">
+    <div class=" container my-5 border border-danger-subtle rounded-3" >
         <p class="text-center">Converter</p>
-        <div class="md-3">
-            <label for="inputDecimal" class="form-label">Enter a decimal number:</label>
+        <div class="form-floating md-5">
             <input type="number" class="form-control" id="inputDecimal" placeholder="Enter decimal number">
+                <label for="inputDecimal" class="form-label">Decimal Number</label>
+            </div>
             <button class="btn btn-primary my-3 btn-lg ms-5">   Convert</button>
             <button class="btn btn-secondary my-3 btn-lg ms-5">   Clear</button>
-
+            <div class="form-floating md-5">
+            <input type="number" class="form-control " id="outputBinary " placeholder="results">
+                <label for="outputBinary" class="form-label">Binary Result</label>
+            </div>
+             <label for="exampleFormControlTextarea1" class="form-label">Conversion Steps</label>
+             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+             <br>
         </div>
     </div>
+    <section id="about">
+        <div class="container-fluid my-5">
+            <p class="text-center">Why Use Our Converter?</p>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-3 col-sm-6  col-lg-3">
+                    <div class="card" style="width: 14rem;">
+                        <img src="./image/energy.png" alt="" class="card-img-top">
+                        <div class="card-body"></div>
+                        <h2 class="card-title">Fast Conversion</h2>
+                        <p class="card-text">Git instant fast</p>
+                        <p class="card-text">in just one click</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6  col-lg-3">
+                    <div class="card"style="width:14rem">
+                        <img src="./image/bullseye.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Accurate Results</h2>
+                            <p class="card-text">100% accurate conversion</p>
+                            <p class="card-text">every time</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6  col-lg-3">
+                    <div class="card"style="width:14rem">
+                    <img src="./image/user (1).png" alt="" class="card-img-top">
+                   <div class="card-body">
+                    <h2 class="card-title ">Simple</h2>
+                    <p class="card-text">easay to used for</p>
+                    <p class="card-text">everyone</p>
+                   </div>
+                </div>
+                </div>
+                <div class="col-md-3 col-sm-6  col-lg-3">
+                    <div class="card"style="width: 14rem;">
+                        <img src="./image/shoe-prints.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Step by Step</h2>
+                            <p class="card-text">understand the conversion</p>
+                            <p class="card-text">process clearly </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
 
     
 
